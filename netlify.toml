@@ -5,11 +5,11 @@
   publish = "static"
 
 [functions]
-  python_version = "3.11"
-    [functions.python_version]
-    external_node_modules = [
-      "3.12"
-    ]  
+  #python_version = "3.11"
+  [functions.python_version]
+   external_node_modules = [
+     "3.12"
+   ]  
 
 [[redirects]]
   from = "/api/*"
